@@ -1,0 +1,119 @@
+        header {
+            text-align: center;
+            background-image: url(/img/fundo-topo.jpg);
+            padding: 10px 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+            
+        h2{
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        header h1{
+            margin: 0;
+   
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+            width: 200px;
+        }
+        nav li{
+            display: inline;
+            background-image: url(/img/patinha-preta.png);
+            background-repeat: no-repeat;
+            background-position: center right;
+            padding-right: 22px;
+            margin-right: 10px;
+
+        }
+        nav{
+            background-image: linear-gradient( 90deg , rgb(33, 189, 19), rgb(160, 226, 5));
+            text-align: center;
+            padding: 15px 0;
+
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+
+        }
+        nav a:hover{
+            color: aquamarine;
+        }
+
+            /* Sobre nós*/
+
+        .fundoverde{
+            background-color: #bdff9c;
+        }
+        .container{
+            width: 900px;
+            margin: 0 auto;
+            padding: 56px 0;
+        }
+        .flex-container .col{
+            width: 430px;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .produto{
+            width: 235px;
+        }
+        .produto figure{
+            border: 1px solid #c4c4c4;
+            background-color: #fff;
+            text-align: center;
+            margin-top: 15px;
+            height: 160px;
+            line-height: 160px;
+            padding: 0;   
+        }
+        .produto figure img{
+            vertical-align: middle;
+        }
+        .textcenter{
+            text-align: center;
+        }
+        .btn-pata{
+            border: 1px solid #91e467;
+            background-color: #d2fbbd;
+            text-decoration: none;
+            padding: 10px 20px;
+            color: #000;
+            cursor: pointer;
+           display: inline-block;
+        }
+        form input, form textarea{
+            width: 100%;
+            border: 1px solid #6dd432;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10pxx;
+
+        }
+        iframe{
+            width: 100%;
+    
+        }
+        #es{
+            margin-top: 70px;
+            bottom: 550px;
+            left: 500px;
+
+        }   
+        .container2{
+            display: flex;
+            width: 900px;
+            margin: 0 auto;
+            padding: 56px 0;
+            
+        }
